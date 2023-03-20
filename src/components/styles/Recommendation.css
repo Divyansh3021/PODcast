@@ -1,0 +1,41 @@
+.recommendations{
+    display: flex;
+    flex-direction: column;
+}
+
+.recommendation-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 20vh;
+    width: 30vw;
+    background-color: grey;
+    margin: 2vh;
+    color: whitesmoke;
+}
+
+.recommendation-thumbnail{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 40%;
+    height: 100%;
+}
+
+.recommendation-length{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    float: left;
+    margin: 2vh;
+    padding: 1vh;
+    background-color: grey;
+}
+
+.recommendation-thumbnail img{
+    width: 2vw;
+    float: right;
+    margin: 2vh;
+    bottom: 2vh;
+}

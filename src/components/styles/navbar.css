@@ -1,0 +1,148 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: black;
+}
+
+::-webkit-scrollbar{
+    width: 0px;
+    background-color: black;
+}
+
+::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    background-color: grey;
+}
+
+.top-nav-body{
+    background-color: rgba(0, 0, 0, 0.334);
+    color: whitesmoke;
+    position: fixed;
+    width: 100vw;
+    z-index: 5;
+}
+
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1.5vw;
+}
+
+.nav-title{
+    align-self: center;
+    margin-right: 1.5vw;
+}
+
+.icon img{
+    width: 2vw;
+    height: 2vw;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    padding: 0.5vh;
+}
+
+.side-nav img{
+    width: 1.4vw;
+    cursor: pointer;
+    height: 1.4vw;
+    margin: 1vw;
+}
+
+.top-nav{
+    width: 100%;
+    height: 12vh;
+    /* background-color: grey; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:left
+}
+
+.nav-pages{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav-page{
+    margin: 1.5vw;
+    font-size: 2vh;
+    cursor: pointer;
+}
+
+.side-nav{
+    display: flex;
+    flex-direction: column;
+    width: 5vw;
+    /* background-color: gray; */
+    height: 88vh;
+    align-items: center;
+    justify-content:flex-start;
+    position: fixed;
+    margin-top: 12vh;
+}
+
+.nav-search{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15vw;
+    /* height: 5vh; */
+    /* background-color: green; */
+    /* border-radius: 20px; */
+}
+
+.nav-search input[type=text] {
+    /* padding: 6px; */
+    /* margin-top: 8px; */
+    /* font-size: 17px; */
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    border: none;
+    background-color: rgba(128, 128, 128, 0.3);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    height: 5vh;
+    width: 15vw;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    font-size: 2vh;
+  }
+
+  .nav-search input[type=text]::placeholder{
+    color: whitesmoke;
+    font-weight: 600;
+    font-size: 1.7vh;
+  }
+  .nav-search input[type=text]:focus{
+    outline: none;
+  }
+  
+  .nav-search  button {
+    /* float: right; */
+    background: rgba(128, 128, 128, 0.3);
+    height: 5vh;
+    width: 5vh;
+    border: none;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    cursor: pointer;
+}
+
+.nav-search button img{
+    height: 3vh;
+    /* margin: auto; */
+    background-color: transparent;
+  }
+
+  .nav-search input[type=text]:active {
+    border: none;
+  }
+  

@@ -1,0 +1,89 @@
+.hero-body{
+    height: 65vh;
+    width: 90vw;
+    border-radius: 20px;
+    background-color: grey;
+    margin: 2vh;
+}
+
+.carausel{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    /* overflow-x: scroll; */
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+}
+
+.carausel-slide{
+    height: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    flex-direction: column;
+    align-items: left;
+    /* background: url(https://uploads-ssl.webflow.com/5f8d8ab496d65849f731ba00/6093d14d548b02d1c1ef1d55_tr6lYNinrqsKZGBIDWTVvDdTZxnNDthansIbq-95f-0MfzooBEX46TCdi9UNpjjhhq45QGj88414JN8EmEhKHdVYTi8CGGfOHd7XA76nJFJ_UfNg4X8u1Os7N3hC2bHaEXjVsMxomJ_Ib1DR0w.jpeg); */
+    background-size: cover !important;
+    background-position: center;
+    justify-content: flex-end;
+    background-repeat: no-repeat !important;
+    filter:grayscale(0.7);
+    /* display: none; */
+    overflow: hidden;
+    animation: appear 0.8s forwards ease;
+}
+
+@keyframes appear {
+    from{
+        opacity: 0;
+    }
+
+    to{
+        opacity: 1;
+    }
+}
+
+
+@keyframes disappear {
+    from{
+        opacity: 1;
+    }
+
+    to{
+        opacity: 0;
+    }
+}
+.carausel-text{
+    padding: 2vw;
+    background: linear-gradient(180deg,transparent, grey);
+    font-size: 3vh;
+    font-weight: 500;
+    padding-bottom: 1vw;
+    color: whitesmoke;
+}
+
+.play-btn{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 6vw;
+    height: 5vh;
+    color: whitesmoke;
+    border-radius: 20px;
+    margin: 2vh;
+    font-size: 2vh;
+    border: none;
+}
+
+.play-btn img{
+    width: 1.3vw;
+    height: 1.3vw;
+    margin-left: 0px;
+    margin-right: 0.5vw;
+}
+
+/* .active{
+    display: flex;
+} */
