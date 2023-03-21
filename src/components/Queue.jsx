@@ -12,6 +12,27 @@ function Queue() {
             <QueueCard img = "./assets/1.jpeg" title = "How to live" length = "54:00"/>
             <QueueCard img = "./assets/1.jpeg" title = "How to live" length = "54:00"/>
             <QueueCard img = "./assets/1.jpeg" title = "How to live" length = "54:00"/>
+            <QueueCard img = "./assets/1.jpeg" title = "How to live" length = "54:00"/>
+            <QueueCard img = "./assets/1.jpeg" title = "How to live" length = "54:00"/>
+            <QueueCard img = "./assets/1.jpeg" title = "How to live" length = "54:00"/>
+            <QueueCard img = "./assets/1.jpeg" title = "How to live" length = "54:00"/>
+            <QueueCard img = "./assets/1.jpeg" title = "How to live" length = "54:00"/>
+            <QueueCard img = "./assets/1.jpeg" title = "How to live" length = "54:00"/>
+            <QueueCard img = "./assets/1.jpeg" title = "How to live" length = "54:00"/>
+            <QueueCard img = "./assets/1.jpeg" title = "How to live" length = "54:00"/>
+            <QueueCard img = "./assets/1.jpeg" title = "How to live" length = "54:00"/>
+            <QueueCard img = "./assets/1.jpeg" title = "How to live" length = "54:00"/>
+            <QueueCard img = "./assets/1.jpeg" title = "How to live" length = "54:00"/>
+            <QueueCard img = "./assets/1.jpeg" title = "How to live" length = "54:00"/>
+            <QueueCard img = "./assets/1.jpeg" title = "How to live" length = "54:00"/>
+            <QueueCard img = "./assets/1.jpeg" title = "How to live" length = "54:00"/>
+            <QueueCard img = "./assets/1.jpeg" title = "How to live" length = "54:00"/>
+            <QueueCard img = "./assets/1.jpeg" title = "How to live" length = "54:00"/>
+            <QueueCard img = "./assets/1.jpeg" title = "How to live" length = "54:00"/>
+            <QueueCard img = "./assets/1.jpeg" title = "How to live" length = "54:00"/>
+            <QueueCard img = "./assets/1.jpeg" title = "How to live" length = "54:00"/>
+            <QueueCard img = "./assets/1.jpeg" title = "How to live" length = "54:00"/>
+            <QueueCard img = "./assets/1.jpeg" title = "How to live" length = "54:00"/>
         </div>
     </div>
   )

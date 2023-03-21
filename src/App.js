@@ -13,10 +13,12 @@ function App() {
       <Navbar/>
       <div className="parent-con">
         <Side_Nav/>
-        <div className="sub-parent-con">
+        <div className="sub-parent-con player-con">
           {/* <Hero/> */}
-          <Player/>
-          <Queue/>
+          <div className="player_queue">
+            <Player/>
+            <Queue/>
+          </div>
           <Recommendation/>
         </div>
       </div>

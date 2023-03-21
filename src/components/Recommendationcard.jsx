@@ -12,7 +12,7 @@ function Recommendationcard(props) {
 
         <div className="recommendation-info">
             <h2 className="recommendation-title">{props.title}</h2>
-            <img src={require("./assets/bookmark.png")} alt="" />
+            <div className="views"><img src={require("./assets/view.png")} alt="" />{props.views} views.  {props.upload_time} months ago</div>
         </div>
     </div>
   )
